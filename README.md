@@ -5,7 +5,7 @@
   <a href="https://www.facebook.com/share/16F9sbGaXC/"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="15%"> </a><a href="https://github.com/bwbxmd/B.M.B-TECG"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/devto.png" width="15%"> </a><a href="https://x.com/bmb_xmd?t=dXGMsWLaBasPJ3PZykz8LA&s=09 "> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/twitter.png" width="13%"> </a>
 
  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=𝐖𝐞𝐥𝐜𝐨𝐦𝐞+𝐓𝐨+𝙱.𝙼.𝙱+tech+𝐁𝐎𝐓.;𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈:+𝐌𝐑+𝙱.𝙼.𝙱-𝚇𝙼𝙳+𝐓𝐄𝐂𝐇;𝐜𝐫𝐞𝐚𝐭𝐞𝐝+𝐛𝐲:+𝙱.𝙼.𝙱-𝚇𝙼𝙳+𝐌𝐃;𝐌𝐑:+𝐓𝐄𝐂𝐇𝐍𝐎𝐋𝐎𝐆𝐘+🥷;𝐧𝐞𝐰+𝐯𝐢𝐫𝐬𝐢𝐨𝐧+💥;2025+-+2026.&heart;++;Self-taught+Back-Created+By,;𝙱.𝙼.𝙱-𝚇𝙼𝙳+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
- <a href="https://files.catbox.moe/1zmzua.jpg">
+ <a href="https://files.catbox.moe/lxxvik.jpg">
  <img alt="B.M.B-XMD" height="300" src="https://files.catbox.moe/1zmzua.jpg">
  
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=𝐖𝐞𝐥𝐜𝐨𝐦𝐞+𝐓𝐨+𝙱.𝙼.𝙱+𝚃𝙴𝙲𝙷+𝐁𝐎𝐓.;𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈:+𝐌𝐑+𝙱.𝙼.𝙱+𝚃𝙴𝙲𝙷;𝐜𝐫𝐞𝐚𝐭𝐞𝐝+𝐛𝐲:+𝙱.𝙼.𝙱+𝚃𝙴𝙲𝙷;𝐌𝐑:+𝐓𝐄𝐂𝐇𝐍𝐎𝐋𝐎𝐆𝐘+🥷;𝐧𝐞𝐰+𝐯𝐞𝐫𝐬𝐢𝐨𝐧+💥;2025+-+2026.)](https://git.io/typing-svg)
@@ -38,7 +38,7 @@
 
 
 <p align="center">
-<a href='https://github.com/bmbxmd/B.M.B-TECH-V1/fork'' target="_blank"><img FORK' src='https://img.shields.io/badge/-fork ‎repo-6971FF?style=for-the-badge&logo=Github&logoColor=white'/< width=150 height=28/p></a>
+<a href='https://github.com/bwbxmd/B.M.B-TECH/fork'' target="_blank"><img FORK' src='https://img.shields.io/badge/-fork ‎repo-6971FF?style=for-the-badge&logo=Github&logoColor=white'/< width=150 height=28/p></a>
 
 ----------
 
