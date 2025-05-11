@@ -71,7 +71,7 @@ commands.forEach((command) => {
             // Send the follow-up image first with a caption
             await zk.sendMessage(dest, {
                 image: { url: "https://files.catbox.moe/qzm0pl.jpg" }, // Updated image
-                caption: `✨ Repository Highlights ✨\n\n🛠️ Developed by *B.M.B-TECG*\n\nRepo URL:\nhttps://github.com/bwbxmd/B.M.B-TECH?tab=readme-ov-file`,
+                caption: `✨ Repository Highlights ✨\n\n🛠️ Developed by *B.M.B-TECG*\n\nRepo URL:\nhttps://github.com/bwbxmd/B.M.B-TECH/fork`,
             });
 
             // Follow up with the GitHub repository details
