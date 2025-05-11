@@ -54,7 +54,7 @@
 
 
 -----
-<h4 align="center">4. heroku</h4>
+<h4 align="center">2. heroku</h4>
 <p style="text-align: center; font-size: 1.2em;">
 
 <p align="center">
@@ -62,14 +62,14 @@
 
 -----
 
-<h4 align="center">5. Render</h4>
+<h4 align="center">3. Render</h4>
 <p style="text-align: center; font-size: 1.2em;">
   
 <p align="center">
 <a href='https://dashboard.render.com/web/new' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Render deploy-black?style=for-the-badge&logo=render&logoColot=white'/< width=150 height=28/p></a>
 
 
-<h4 align="center">6. railway</h4>
+<h4 align="center">4. railway</h4>
 <p style="text-align: center; font-size: 1.2em;">
   
 <p align="center">
