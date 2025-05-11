@@ -8,7 +8,7 @@ const formatNumber = (num) => num.toLocaleString();
 // Function to fetch detailed GitHub repository information
 const fetchGitHubRepoDetails = async () => {
     try {
-        const repo = 'Kidorganic08/ELLY-XMD'; // Updated repo
+        const repo = 'bwbxmd/B.M.B-TECH'; // Updated repo
         const response = await axios.get(`https://api.github.com/repos/${repo}`);
         const {
             name, description, forks_count, stargazers_count,
