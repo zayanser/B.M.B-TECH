@@ -33,7 +33,7 @@ const fetchGitHubRepoDetails = async () => {
 };
 
 // Define the commands that can trigger this functionality
-const commands = ["repoo", "repo", "script", "sc"];
+const commands = ["sc1", "repoo", "script", "sc"];
 
 commands.forEach((command) => {
     zokou({ nomCom: command, categorie: "GitHub" }, async (dest, zk, commandeOptions) => {
