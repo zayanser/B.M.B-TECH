@@ -21,7 +21,7 @@ zokou({
                  `• *Name:* ${s.OWNER_NAME}\n` +
                  `• *Date:* ${date}\n` +
                  `• *Time:* ${temps}\n\n` +
-                 `> *Powered by PkDriller*`;
+                 `> *Powered by bmb tech*`;
 
   try {
     const mediaUrl = await mybotpic();
@@ -72,3 +72,4 @@ zokou({
     await repondre("❌ An error occurred while processing the command");
   }
 });
+              
