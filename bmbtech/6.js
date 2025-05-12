@@ -1,133 +1,61 @@
 const {
   zokou
-} = require("../framework/zokou");
-const traduire = require("../framework/traduction");
-const {
-  default: axios
-} = require("axios");
+} = require(__dirname + "/../framework/zokou");
+const moment = require("moment-timezone");
+const readmore = String.fromCharCode(0x200e).repeat(0xfa0);
 zokou({
-  'nomCom': "bot",
-  'reaction': '📡',
-  'categorie': 'IA'
-}, async (_0x36f69f, _0x453ade, _0x4de7f9) => {
-  const {
-    repondre: _0x5ed27f,
-    ms: _0x2a5c1a,
-    arg: _0xc12aa5
-  } = _0x4de7f9;
-  if (!_0xc12aa5 || !_0xc12aa5[0]) {
-    return _0x5ed27f("yes buddy,🕵please say something.");
-  }
-  try {
-    const _0x415161 = await traduire(_0xc12aa5.join(" "), {
-      'to': 'en'
-    });
-    console.log(_0x415161);
-    fetch("http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg=" + _0x415161).then(_0x22ee6d => _0x22ee6d.json()).then(_0x5269e6 => {
-      const _0x5b2a00 = _0x5269e6.cnt;
-      console.log(_0x5b2a00);
-      traduire(_0x5b2a00, {
-        'to': 'en'
-      }).then(_0xc3c3bf => {
-        _0x5ed27f(_0xc3c3bf);
-      })["catch"](_0x11053d => {
-        console.error("Error when translating into French :", _0x11053d);
-        _0x5ed27f("Error when translating into French");
-      });
-    })["catch"](_0x219f35 => {
-      console.error("Error requesting BrainShop :", _0x219f35);
-      _0x5ed27f("Error requesting BrainShop");
-    });
-  } catch (_0x237482) {
-    _0x5ed27f("oops an error : " + _0x237482);
-  }
-});
-zokou({
-  'nomCom': 'ai',
-  'reaction': '📡',
-  'categorie': 'IA'
-}, async (_0x33e9c5, _0x1dcddb, _0x5dff43) => {
-  const {
-    repondre: _0x345a32,
-    arg: _0x2aab57,
-    ms: _0x562a2b
-  } = _0x5dff43;
-  try {
-    if (!_0x2aab57 || _0x2aab57.length === 0) {
-      return _0x345a32("Please enter the necessary information to generate the image.");
+  'nomCom': "menu3",
+  'categorie': "General"
+}, async (_0x593f38, _0x153b4b, _0x43d096) => {
+  let {
+    ms: _0x54897c,
+    repondre: _0x27b0f3,
+    prefixe: _0x27bba3,
+    nomAuteurMessage: _0x3db2ae
+  } = _0x43d096;
+  let {
+    cm: _0x1ecba2
+  } = require(__dirname + "/../framework/zokou");
+  var _0x441ecd = {};
+  _0x1ecba2.map(_0x4a2ebc => {
+    if (!_0x441ecd[_0x4a2ebc.categorie]) {
+      _0x441ecd[_0x4a2ebc.categorie] = [];
     }
-    const _0x282c45 = _0x2aab57.join(" ");
-    const _0x1dc002 = await axios.get("https://photooxy.com/effect/create-image?q=" + _0x282c45);
-    const _0x37f736 = _0x1dc002.data;
-    if (_0x37f736.status == 200) {
-      const _0x72756b = _0x37f736.result;
-      _0x1dcddb.sendMessage(_0x33e9c5, {
-        'image': {
-          'url': _0x72756b
-        },
-        'caption': "*powered by Spark-X*"
-      }, {
-        'quoted': _0x562a2b
-      });
+    _0x441ecd[_0x4a2ebc.categorie].push(_0x4a2ebc.nomCom);
+  });
+  moment.tz.setDefault("Africa/Nairobi");
+  const _0x493178 = moment().format("HH:mm:ss");
+  const _0x4cc470 = moment().format('DD/MM/YYYY');
+  const _0x3bb663 = moment().hour();
+  let _0x45ed97 = '';
+  if (_0x3bb663 >= 0x5 && _0x3bb663 < 0xc) {
+    _0x45ed97 = "🌅☀️ 𝗚𝗼𝗼𝗱 𝗺𝗼𝗿𝗻𝗶𝗻𝗴! 𝗛𝗼𝗽𝗲 𝘆𝗼𝘂 𝗵𝗮𝘃𝗲 𝗮 𝗳𝗮𝗻𝘁𝗮𝘀𝘁𝗶𝗰 𝗱𝗮𝘆! 🌞";
+  } else {
+    if (_0x3bb663 >= 0xc && _0x3bb663 < 0x11) {
+      _0x45ed97 = "☀️😎 𝗚𝗼𝗼𝗱 𝗮𝗳𝘁𝗲𝗿𝗻𝗼𝗼𝗻! 𝗦𝘁𝗮𝘆 𝗲𝗻𝗲𝗿𝗴𝗶𝘇𝗲𝗱! 🌿";
+    } else if (_0x3bb663 >= 0x11 && _0x3bb663 < 0x15) {
+      _0x45ed97 = "🌆✨ 𝗚𝗼𝗼𝗱 𝗲𝘃𝗲𝗻𝗶𝗻𝗴! 𝗛𝗼𝗽𝗲 𝘆𝗼𝘂 𝗵𝗮𝗱 𝗮 𝗴𝗿𝗲𝗮𝘁 𝗱𝗮𝘆! 🌙";
     } else {
-      _0x345a32("Error during image generation.");
+      _0x45ed97 = "🌙😴 𝗚𝗼𝗼𝗱 𝗻𝗶𝗴𝗵𝘁! 𝗦𝘄𝗲𝗲𝘁 𝗱𝗿𝗲𝗮𝗺𝘀! 💫";
     }
-  } catch (_0x1b6ed2) {
-    console.error("Erreur:", _0x1b6ed2.message || "Une erreur s'est produite");
-    _0x345a32("Oops, an error occurred while processing your request");
   }
-});
-zokou({
-  'nomCom': "gpt1",
-  'reaction': '📡',
-  'categorie': 'IA'
-}, async (_0x277da3, _0x1e32f9, _0xe9e040) => {
-  const {
-    repondre: _0x4062d4,
-    arg: _0x4c5388,
-    ms: _0x5ac778
-  } = _0xe9e040;
+  let _0x5b7931 = "\n\n" + readmore + " 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀";
+  for (let _0x228323 in _0x441ecd) {
+    _0x5b7931 += "\n\n*" + _0x228323 + "*\n";
+    _0x5b7931 += _0x441ecd[_0x228323].map(_0x2bd28a => "- " + _0x27bba3 + _0x2bd28a).join("\n");
+  }
+  let _0x108a5c = "\n╭┈┈┈┈┈╮\n│  𝙱.𝙼.𝙱-𝚇𝙼𝙳 ɴᴇxᴜs\n├┈┈┈┈•➤\n│ 🕵️ ᴜsᴇʀ ɴᴀᴍᴇ: " + _0x3db2ae + "\n│ 📆 ᴅ𝗮𝘁𝗲: " + _0x4cc470 + "\n│ ⏰ ᴛ𝗶𝗺𝗲: " + _0x493178 + "\n│ 👪 bmb ᴜsᴇ𝗿s: " + '0+' + "\n╰┈┈┈┈┈╯\n" + _0x45ed97 + "\n\n" + _0x5b7931;
   try {
-    if (!_0x4c5388 || _0x4c5388.length === 0) {
-      return _0x4062d4("Please ask a me any thing.");
-    }
-    const _0x303243 = _0x4c5388.join(" ");
-    const _0x5e4ba9 = await axios.get("https://api.ibrahimadams.us.kg/api/ai/gpt4?q=" + _0x303243 + "&apikey=abutech");
-    const _0x1c67aa = _0x5e4ba9.data;
-    if (_0x1c67aa) {
-      _0x4062d4(_0x1c67aa.result);
-    } else {
-      _0x4062d4("Error during response generation.");
-    }
-  } catch (_0x1f74f6) {
-    console.error("Erreur:", _0x1f74f6.message || "Une erreur s'est produite");
-    _0x4062d4("Oops, an error occurred while processing your request.");
-  }
-});
-zokou({
-  'nomCom': "gpt8",
-  'reaction': '🤔',
-  'categorie': 'IA'
-}, async (_0x18d296, _0x5caff0, _0x3e6db9) => {
-  const {
-    repondre: _0x3bb690,
-    arg: _0x332e74,
-    ms: _0x647a18
-  } = _0x3e6db9;
-  try {
-    if (!_0x332e74 || _0x332e74.length === 0) {
-      return _0x3bb690("Please ask a question.");
-    }
-    const _0x10b7ec = _0x332e74.join(" ");
-    const _0x39f4c1 = await axios.get("https://api.ibrahimadams.us.kg/api/ai/gpt4?q=" + _0x10b7ec + "&apikey=abutech");
-    const _0x17d072 = _0x39f4c1.data;
-    if (_0x17d072) {
-      _0x3bb690(_0x17d072.result);
-    } else {
-      _0x3bb690("Error during response generation.");
-    }
-  } catch (_0x147562) {
-    console.error("Erreur:", _0x147562.message || "Une erreur s'est produite");
-    _0x3bb690("Oops, an error occurred while processing your request.");
-  }
-});
+    await _0x153b4b.sendMessage(_0x593f38, {
+      'image': {
+        'url': 'https://files.catbox.moe/g2brwg.jpg'
+      },
+      'caption': _0x108a5c,
+      'footer': "*B.M.B-TECH*, developed by bmb tech",
+      'contextInfo': {
+        'forwardingScore': 0x3e7,
+        'isForwarded': true
+      }
+    }, {
+      'quoted': _0x54897c
+    })
