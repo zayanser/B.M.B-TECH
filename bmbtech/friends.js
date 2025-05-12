@@ -18,7 +18,6 @@ zokou({
   const _0x21b56d = [{
     'nom': "B.M.B OWNER",
     'numero': "255767862457"
-    'numero': "25511782669" 
   },{
     'nom': "DEPLOMENT SERVICES",
     'numero': "254736761160"
