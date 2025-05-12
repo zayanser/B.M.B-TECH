@@ -16,7 +16,7 @@ zokou(
         return repondre("*Please provide a number in the format: 25474........*");
       }
 
-      await repondre("*B.M.B....Generating pair code*");
+      await repondre("*Please wait... Generating pair code*");
 
       const encodedNumber = encodeURIComponent(arg.join(" "));
       const apiUrl = `https://bmb-tech.onrender.com/pair?number=${encodedNumber}`;
@@ -36,4 +36,4 @@ zokou(
     }
   }
 );
-           
+        
