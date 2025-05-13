@@ -39,7 +39,7 @@
 "ANTICALL":
     {
       "description":"Enter yes for your bot to auto reject calls",
-      "value":"yes",
+      "no",
       "required":false
     },
 "AUTO_REACT_STATUS":
@@ -98,14 +98,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "©charles"
+    "value": ""
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of kenya '254')",
     "required":true,
-    "value": ""
+    "value": "255"
   },
     "WARN_COUNT":
   {
@@ -126,7 +126,7 @@
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "yes",
+    "value": "no",
         "required": true
   }
   },
