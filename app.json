@@ -39,7 +39,7 @@
 "ANTICALL":
     {
       "description":"Enter yes for your bot to auto reject calls",
-      "no",
+      "value":"yes",
       "required":false
     },
 "AUTO_REACT_STATUS":
@@ -98,7 +98,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": ""
+    "value": "𝙱.𝙼.𝙱-𝚇𝙼𝙳"
   },
     "NUMERO_OWNER":
   {
@@ -143,4 +143,4 @@
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     }
   ]
-}
+    }
