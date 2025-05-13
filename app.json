@@ -2,7 +2,7 @@
   "name":"B.M.B-TECH",
   "description":"Best whatsapp bot💥 developed by bmb tech🇹🇿 ",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://ibb.co/q70RyBd",
+  "logo":"https://files.catbox.moe/qzm0pl.jpg",
   "repository":"https://github.com/ekitale/maths-project",
   "succes_url":"/",
   "stack":"heroku-24",
@@ -39,7 +39,7 @@
 "ANTICALL":
     {
       "description":"Enter yes for your bot to auto reject calls",
-      "value":"no",
+      "value":"yes",
       "required":false
     },
 "AUTO_REACT_STATUS":
@@ -65,7 +65,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/7wbud7.jpg",
+      "value":"https://files.catbox.moe/qzm0pl.jpg",
       "required":false
        
      },
@@ -78,6 +78,7 @@
 	,
     "HEROKU_API_KEY": {
     "description": "insert your heroku api-key (this is optionnal)",
+     "value":"HRKU-6930f8d0-3dde-4024-8bc5-ea03012e0fc1",
      "required" :false
     },
   "HEROKU_APP_NAME": {
@@ -97,7 +98,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "𝙱.𝙼.𝙱-𝚇𝙼𝙳"
+    "value": "©charles"
   },
     "NUMERO_OWNER":
   {
