@@ -47,7 +47,7 @@
 
 
 <p align="center">
-<a href='https://bmb-tech.onrender.com/pair' target="_blank"><img alt='pair' src='https://img.shields.io/badge/-pair code ‎ session-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
+<a href='https://bmb-tech-pair-site.onrender.com' target="_blank"><img alt='pair' src='https://img.shields.io/badge/-pair code ‎ session-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
 
 --------------
 
