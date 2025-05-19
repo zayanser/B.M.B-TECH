@@ -5,21 +5,19 @@ const { format } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
-const more = String.fromCharCode(8206)
-const readmore = more.repeat(4001)
 
 zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
     var mode = "public";
-
+    
     if ((s.MODE).toLocaleLowerCase() != "yes") {
         mode = "private";
     }
 
 
-
+    
 
     cm.map(async (com, index) => {
         if (!coms[com.categorie])
@@ -34,43 +32,49 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-> B.M.B-TECH AVAILABLE MENU 
-╭─────────────────
-│❒⁠⁠⁠⁠╭─────────────
-│❒⁠⁠⁠⁠│▸ *MENU* 
-│❒⁠⁠⁠⁠│▸ *MENU1* 
-│❒⁠⁠⁠⁠│▸ *BUGMENU*
-│❒⁠⁠⁠⁠╰──────────────
-│❒⁠⁠⁠⁠│▸ *PLUGINS* : ${cm.length} 
-│❒⁠⁠⁠⁠│▸ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠│▸ *SAVER* : ${os.platform()}
-│❒⁠⁠⁠⁠│▸ *THEME* : *𝐁.𝐌.𝐁-𝐗𝐌𝐃*
-│❒⁠⁠⁠⁠╰──────────────
-╰──────────────────\n`;
-
+╭────《🇹🇿《𝐁.𝐌.𝐁-𝐗𝐌𝐃》🇹🇿》────
+┴  ╭─────────────
+│❒⁠⁠⁠⁠│ *ADMIN* : ${s.OWNER_NAME}
+│❒│⁠⁠⁠⁠ *CALENDER* : ${date}
+│❒│⁠⁠⁠⁠ *PREFIX* : ${s.PREFIXE}
+│❒⁠⁠⁠⁠│⁠⁠⁠ *BOT IS IN* : ${mode} mode
+│❒│⁠⁠⁠⁠ *ORDERS* : ${cm.length} 
+│❒│⁠⁠⁠⁠ *SPACE* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│❒│⁠⁠⁠⁠ *CHROME* : ${os.platform()}
+│❒│⁠⁠⁠⁠ *THEME* : *B.M.BTHEME*
+┬  ╰──────────────
+╰─── ··《🇹🇿《B.M.B-XMD《🇹🇿》··──\n`;
+    
 let menuMsg = `
+ ─────────
+  *☠️𝚻𝚵𝚫𝚳 𝐁.𝐌.𝐁-𝐗𝐌𝐃 𝚩𝚯𝚻☠️* 
+ ─────────
 
- *COMMANDS*${readmore}
+
+ *ℂ𝕆𝕄𝕄𝔸ℕ𝔻𝕊*
 `;
 
     for (const cat in coms) {
-        menuMsg += ` ╭────────❒⁠⁠⁠⁠ *${cat}* ✣`;
+        menuMsg += ` ╭─⬡ *${cat}* ⬡─`;
         for (const cmd of coms[cat]) {
             menuMsg += `
-│❒⁠⁠⁠⁠│▸ ${cmd}`;
+⬡│▸ *${cmd}*`;
         }
         menuMsg += `
-╰────────────···▸▸ \n`
+  ╰────────────·· \n`
     }
 
-    menuMsg += `> MADE EASY BY 𝐁.𝐌.𝐁-𝐗𝐌𝐃
+    menuMsg += `
+
+|⏣𝐌𝐀𝐃𝐄 𝐄𝐀𝐒𝐘 𝐛𝐲 𝐁.𝐌.𝐁-𝐗𝐌𝐃🥷
+*❒⁠⁠⁠⁠—————————— ❒⁠⁠⁠⁠——————————❒⁠⁠⁠⁠*
 `;
 
    var lien = mybotpic();
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *B.M.B-TECH*, déveloper 𝐁.𝐌.𝐁-𝐗𝐌𝐃" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *bmb*, déveloper bmb Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -80,7 +84,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *𝙱.𝙼.𝙱-𝚇𝙼𝙳*, déveloper bmb Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *bmb*, déveloper bmb Tech" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -88,9 +92,10 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     }
 } 
 else {
-
+    
     repondre(infoMsg + menuMsg);
-
+    
 }
 
 });
+      
