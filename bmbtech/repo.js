@@ -5,7 +5,7 @@ zokou({ nomCom: "repo", categorie: "General" }, async (dest, zk, commandeOptions
     let { ms, repondre } = commandeOptions;    
 
     const repoUrl = "https://api.github.com/repos/bwbxmd/B.M.B-TECH";    
-    const imageUrl = "https://files.catbox.moe/kuz5r2.jpg";    
+    const imageUrl = "https://files.catbox.moe/ho5pgt.jpg";    
 
     try {    
         const response = await axios.get(repoUrl);    
