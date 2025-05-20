@@ -39,13 +39,13 @@
 
 ---
 
-<a href='https://butto-9befd6758ddd.herokuapp.com/' target="_blank">
-<img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
+<a href='https://github.com/bwbxmd/B.M.B-TECH/fork' target="_blank">
+<img alt='Pairing Code' src='https://img.shields.io/badge/fork%20repo%20bmb-tech?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br> 
 
 ----------
-<a href='https://enzo-md-sessions-generator-2.onrender.com' target="_blank">
+<a href='https://bmb-tech-pair-site.onrender.com/pair' target="_blank">
 <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-darkpink?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br>
