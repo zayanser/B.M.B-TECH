@@ -41,7 +41,7 @@ Hello ${nomAuteurMessage},,
 ✔First type the sc ,repo or script command and you will get dullah md repository 
 ✔From there you are required to get your *Session id* but how,??..
          𝐇𝐎𝐖 𝐓𝐎 𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃
-✞ Open this link 👉 https://bmb-tech.onrender.com/pair   then tap on pair code.
+✞ Open this link 👉 https://bmb-tech-pair-site.onrender.com/pair   then tap on pair code.
 ✞ Enter your whatsapp number with the country code e.g;  255767862457 then tap submit 
 ✞Queen-m owner , *bmb tech* ,will send you the code immediately.Copy the code and whatsapp will bring a notification 
 ✞Tap on the notification and paste the code that queen-m owner sent you.
@@ -52,7 +52,7 @@ Hello ${nomAuteurMessage},,
 ✔Tap on heroku deploy tab  given there. First thing you should do is getting your *Heroku Api Key* insert it to the required space .
 ✔Enter the valid *heroku app name* and again repeat it to the blank space asking for app name accordingly.Fill everything and press on the below tab Deploy
 ✔In some heroku apps the buld logs might not show but it will eventually deploy 
-✔Now click on this devs number and give queen-m owner credits https://wa.me/254785392165
+✔Now click on this devs number and give queen-m owner credits https://wa.me/255767862457
 ╰────────────────────☆`;
 let menuMsg = `
      𝐑𝐞𝐠𝐚𝐫𝐝𝐬 dev bmb tech`;
