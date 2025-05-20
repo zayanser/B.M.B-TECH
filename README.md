@@ -47,13 +47,12 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=■+■+■+■+■+ℙ𝕃𝔼𝔸𝕊𝔼+𝔽𝕆ℝ𝕂+𝕋ℍ𝔼+ℝ𝔼ℙ𝕆)](https://git.io/typing-svg)
 
-----------
-
-
 <a href='https://butto-9befd6758ddd.herokuapp.com/' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br> 
+
+----------
 
 <a href='https://enzo-md-sessions-generator-2.onrender.com' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-darkpink?style=for-the-badge&logo=opencv&logoColor=black'/>
