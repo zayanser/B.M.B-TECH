@@ -43,27 +43,22 @@
   <a href="https://github.com/bwbxmd/B.M.B-TECH"
 </p>
 
-<p align="center">
-  <a href="https://github.com/bwbxmd/𝙱.𝙼.𝙱-TECH/blob/main/temp/deploy-on-vps.md"><img src="https://img.shields.io/badge/self hosting-3d1513?style=for-the-badge&logo=serverless&logoColor=FD5750"></a>
-  <a href="https://bmb-verification.vercel.app/bmb"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
-  <a href="https://whatsapp.com/channel/0029Vb2eknR59PwL1OK4wR24"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
-</p>
 
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=■+■+■+■+■+ℙ𝕃𝔼𝔸𝕊𝔼+𝔽𝕆ℝ𝕂+𝕋ℍ𝔼+ℝ𝔼ℙ𝕆)](https://git.io/typing-svg)
 
-
-<p align="center">
-<a href='https://github.com/bwbxmd/B.M.B-TECH/fork'' target="_blank"><img FORK' src='https://img.shields.io/badge/-fork ‎repo-6971FF?style=for-the-badge&logo=Github&logoColor=white'/< width=150 height=28/p></a>
-
 ----------
 
-<h4 align="center">1. pair code</h4>
-<p style="text-align: center; font-size: 1.2em;">
 
+<a href='https://butto-9befd6758ddd.herokuapp.com/' target="_blank">
+  <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
+</a>
+<br> 
 
-<p align="center">
-<a href='https://bmb-tech-pair-site.onrender.com' target="_blank"><img alt='pair' src='https://img.shields.io/badge/-pair code ‎ session-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
+<a href='https://enzo-md-sessions-generator-2.onrender.com' target="_blank">
+  <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-darkpink?style=for-the-badge&logo=opencv&logoColor=black'/>
+</a>
+<br>
 
 --------------
 
