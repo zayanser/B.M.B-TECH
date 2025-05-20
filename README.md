@@ -39,10 +39,6 @@
 
 ---
 
-<p align="center">
-  <a href="https://github.com/bwbxmd/B.M.B-TECH"
-</p>
-
 <a href='https://butto-9befd6758ddd.herokuapp.com/' target="_blank">
 <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
