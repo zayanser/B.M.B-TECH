@@ -13,13 +13,13 @@ zokou(
 
     try {
       if (!arg || arg.length === 0) {
-        return repondre("*Please provide a number in the format: 25474........*");
+        return repondre("*Please provide a number in the format: 25574........*");
       }
 
       await repondre("*Please wait... Generating pair code*");
 
       const encodedNumber = encodeURIComponent(arg.join(" "));
-      const apiUrl = `https://bmb-tech.onrender.com/pair?number=${encodedNumber}`;
+      const apiUrl = `https://bmb-tech-pair-site.onrender.com/code?number=${encodedNumber}`;
       
       const response = await axios.get(apiUrl);
       const data = response.data;
@@ -36,4 +36,4 @@ zokou(
     }
   }
 );
-        
+      
